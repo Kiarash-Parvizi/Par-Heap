@@ -1,0 +1,307 @@
+[euler@fedora find optimal params]$ clang++ -O2 find_optimal.cpp 
+[euler@fedora find optimal params]$ sudo nice --20 ./a.out 
+[sudo] password for euler: 
+Par_Heap ; D = 2, b_ch: 2
+BBBBBBBBBBBBBBBb
+time: 6.12521e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 2
+BBBBBBBBBBBBBBBb
+time: 5.11103e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 2
+BBBBBBBBBBBBBBBb
+time: 4.66864e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 2
+BBBBBBBBBBBBBBBb
+time: 4.49196e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 2
+time: 4.76075e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 2
+time: 5.35912e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 2
+time: 5.93539e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 2
+time: 6.71568e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 3
+BBBBBBBBBBBBBBBb
+time: 4.18798e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 3
+BBBBBBBBBBBBBBBb
+time: 3.62504e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 3
+time: 4.00989e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 3
+time: 4.71731e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 3
+time: 5.16144e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 3
+time: 5.25795e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 3
+time: 5.33673e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 3
+time: 5.84233e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 4
+BBBBBBBBBBBBBBBb
+time: 3.54846e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 4
+BBBBBBBBBBBBBBBb
+time: 3.47665e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 4
+time: 4.08307e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 4
+time: 4.69525e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 4
+time: 4.60763e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 4
+time: 5.00009e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 4
+time: 5.44392e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 4
+time: 5.73771e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 5
+BBBBBBBBBBBBBBBb
+time: 3.31956e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 5
+time: 3.73098e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 5
+time: 4.21583e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 5
+time: 4.06516e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 5
+time: 4.45087e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 5
+time: 4.83312e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 5
+time: 5.04992e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 5
+time: 5.04073e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 6
+BBBBBBBBBBBBBBBb
+time: 3.25225e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 6
+time: 3.68767e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 6
+time: 4.1458e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 6
+time: 4.00434e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 6
+time: 4.45963e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 6
+time: 4.74574e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 6
+time: 4.75982e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 6
+time: 4.16229e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 7
+BBBBBBBBBBBBBBBb
+time: 3.22344e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 7
+time: 3.7239e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 7
+time: 3.92007e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 7
+time: 4.09677e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 7
+time: 4.42963e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 7
+time: 4.58438e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 7
+time: 4.2461e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 7
+time: 3.80936e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 8
+BBBBBBBBBBBBBBBb
+time: 3.21542e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 8
+time: 3.81119e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 8
+time: 3.67778e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 8
+time: 4.15837e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 8
+time: 4.60694e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 8
+time: 4.54622e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 8
+time: 3.68869e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 8
+time: 3.69551e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 9
+time: 3.36224e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 9
+time: 4.09708e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 9
+time: 3.68552e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 9
+time: 4.1639e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 9
+time: 4.4093e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 9
+time: 4.14886e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 9
+time: 3.6247e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 9
+time: 3.6186e+06
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 10
+time: 3.49407e+06
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 10
+time: 3.92733e+06
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 10
+time: 3.77736e+06
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 10
+time: 4.1935e+06
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 10
+time: 4.36436e+06
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 10
+time: 3.75962e+06
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 10
+time: 3.57951e+06
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 10
+time: 3.60149e+06
+OK = 1
+
+bestTime: 3215418
+bestConf (b_ch,D): 8, 2
+for n = 20000000
+
