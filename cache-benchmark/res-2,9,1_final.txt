@@ -1,0 +1,1439 @@
+[euler@fedora cache-benchmark]$ clang++ -O2 -lpapi cache_time_benchmark.cpp 
+[euler@fedora cache-benchmark]$ ./a.out 
+----------
+Par_Heap(2, 9, 1):
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 206
+---
+time : 2
+---
+l3 cache miss cnt : 0
+---
+time : 1
+---
+l3 cache miss cnt : 0
+---
+time : 1
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 1
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+N: 10
+====> total   l3 cache miss cnt : 206
+---
+====> average l3 cache miss cnt : 20
+---
+
+====> total   time : 5
+---
+====> average time : 0.5
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 2
+---
+time : 11
+---
+l3 cache miss cnt : 0
+---
+time : 11
+---
+l3 cache miss cnt : 0
+---
+time : 10
+---
+l3 cache miss cnt : 0
+---
+time : 10
+---
+l3 cache miss cnt : 2
+---
+time : 9
+---
+l3 cache miss cnt : 0
+---
+time : 9
+---
+l3 cache miss cnt : 0
+---
+time : 9
+---
+l3 cache miss cnt : 0
+---
+time : 9
+---
+l3 cache miss cnt : 0
+---
+time : 9
+---
+l3 cache miss cnt : 0
+---
+time : 9
+---
+N: 100
+====> total   l3 cache miss cnt : 4
+---
+====> average l3 cache miss cnt : 0
+---
+
+====> total   time : 96
+---
+====> average time : 9.6
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 1
+---
+time : 174
+---
+l3 cache miss cnt : 2
+---
+time : 153
+---
+l3 cache miss cnt : 0
+---
+time : 153
+---
+l3 cache miss cnt : 0
+---
+time : 151
+---
+l3 cache miss cnt : 0
+---
+time : 177
+---
+l3 cache miss cnt : 0
+---
+time : 152
+---
+l3 cache miss cnt : 0
+---
+time : 152
+---
+l3 cache miss cnt : 0
+---
+time : 151
+---
+l3 cache miss cnt : 0
+---
+time : 174
+---
+l3 cache miss cnt : 0
+---
+time : 153
+---
+N: 1000
+====> total   l3 cache miss cnt : 3
+---
+====> average l3 cache miss cnt : 0
+---
+
+====> total   time : 1590
+---
+====> average time : 159
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 9
+---
+time : 1704
+---
+l3 cache miss cnt : 8
+---
+time : 1714
+---
+l3 cache miss cnt : 0
+---
+time : 1263
+---
+l3 cache miss cnt : 0
+---
+time : 1170
+---
+l3 cache miss cnt : 0
+---
+time : 1157
+---
+l3 cache miss cnt : 2
+---
+time : 944
+---
+l3 cache miss cnt : 0
+---
+time : 887
+---
+l3 cache miss cnt : 0
+---
+time : 887
+---
+l3 cache miss cnt : 0
+---
+time : 877
+---
+l3 cache miss cnt : 8
+---
+time : 766
+---
+N: 10000
+====> total   l3 cache miss cnt : 27
+---
+====> average l3 cache miss cnt : 2
+---
+
+====> total   time : 11369
+---
+====> average time : 1136.9
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 7935
+---
+time : 8567
+---
+l3 cache miss cnt : 447
+---
+time : 6665
+---
+l3 cache miss cnt : 334
+---
+time : 6308
+---
+l3 cache miss cnt : 3085
+---
+time : 6816
+---
+l3 cache miss cnt : 7190
+---
+time : 6757
+---
+l3 cache miss cnt : 97
+---
+time : 5959
+---
+l3 cache miss cnt : 8
+---
+time : 6019
+---
+l3 cache miss cnt : 5820
+---
+time : 7353
+---
+l3 cache miss cnt : 91
+---
+time : 5835
+---
+l3 cache miss cnt : 23
+---
+time : 5996
+---
+N: 100000
+====> total   l3 cache miss cnt : 25030
+---
+====> average l3 cache miss cnt : 2503
+---
+
+====> total   time : 66275
+---
+====> average time : 6627.5
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 259891
+---
+time : 76965
+---
+l3 cache miss cnt : 579766
+---
+time : 78213
+---
+l3 cache miss cnt : 577538
+---
+time : 77920
+---
+l3 cache miss cnt : 669086
+---
+time : 79923
+---
+l3 cache miss cnt : 574787
+---
+time : 78000
+---
+l3 cache miss cnt : 596672
+---
+time : 78144
+---
+l3 cache miss cnt : 549785
+---
+time : 78036
+---
+l3 cache miss cnt : 565213
+---
+time : 78105
+---
+l3 cache miss cnt : 524385
+---
+time : 78570
+---
+l3 cache miss cnt : 568417
+---
+time : 78852
+---
+N: 1000000
+====> total   l3 cache miss cnt : 5465540
+---
+====> average l3 cache miss cnt : 546554
+---
+
+====> total   time : 782728
+---
+====> average time : 78272.8
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 102439957
+---
+time : 1.48826e+06
+---
+l3 cache miss cnt : 102604043
+---
+time : 1.49263e+06
+---
+l3 cache miss cnt : 102792923
+---
+time : 1.49156e+06
+---
+l3 cache miss cnt : 102295862
+---
+time : 1.48386e+06
+---
+l3 cache miss cnt : 102947059
+---
+time : 1.49426e+06
+---
+l3 cache miss cnt : 102514043
+---
+time : 1.49287e+06
+---
+l3 cache miss cnt : 102636944
+---
+time : 1.49513e+06
+---
+l3 cache miss cnt : 102715949
+---
+time : 1.48657e+06
+---
+l3 cache miss cnt : 102665527
+---
+time : 1.4906e+06
+---
+l3 cache miss cnt : 102820859
+---
+time : 1.49276e+06
+---
+N: 10000000
+====> total   l3 cache miss cnt : 1026433166
+---
+====> average l3 cache miss cnt : 102643316
+---
+
+====> total   time : 1.49085e+07
+---
+====> average time : 1.49085e+06
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 787992393
+---
+time : 9.31071e+06
+---
+l3 cache miss cnt : 787370264
+---
+time : 9.28983e+06
+---
+l3 cache miss cnt : 785142212
+---
+time : 9.23599e+06
+---
+l3 cache miss cnt : 785450778
+---
+time : 9.26828e+06
+---
+l3 cache miss cnt : 785741124
+---
+time : 9.2587e+06
+---
+l3 cache miss cnt : 785355812
+---
+time : 9.29308e+06
+---
+l3 cache miss cnt : 782048521
+---
+time : 9.24955e+06
+---
+l3 cache miss cnt : 783141516
+---
+time : 9.27661e+06
+---
+l3 cache miss cnt : 783385195
+---
+time : 9.23505e+06
+---
+l3 cache miss cnt : 787752720
+---
+time : 9.32079e+06
+---
+N: 50000000
+====> total   l3 cache miss cnt : 7853380535
+---
+====> average l3 cache miss cnt : 785338053
+---
+
+====> total   time : 9.27386e+07
+---
+====> average time : 9.27386e+06
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 1932102781
+---
+time : 2.15903e+07
+---
+l3 cache miss cnt : 1936473961
+---
+time : 2.15895e+07
+---
+l3 cache miss cnt : 1933902427
+---
+time : 2.15809e+07
+---
+l3 cache miss cnt : 1932884169
+---
+time : 2.16172e+07
+---
+l3 cache miss cnt : 1944750503
+---
+time : 2.17369e+07
+---
+l3 cache miss cnt : 1936873447
+---
+time : 2.16277e+07
+---
+l3 cache miss cnt : 1944783470
+---
+time : 2.17103e+07
+---
+l3 cache miss cnt : 1928577987
+---
+time : 2.16025e+07
+---
+l3 cache miss cnt : 1946854713
+---
+time : 2.17251e+07
+---
+l3 cache miss cnt : 1927358722
+---
+time : 2.15666e+07
+---
+N: 100000000
+====> total   l3 cache miss cnt : 19364562180
+---
+====> average l3 cache miss cnt : 1936456218
+---
+
+====> total   time : 2.16347e+08
+---
+====> average time : 2.16347e+07
+---
+
+----------
+Heap recursive (ll index type):
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 182
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 2
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+N: 10
+====> total   l3 cache miss cnt : 184
+---
+====> average l3 cache miss cnt : 18
+---
+
+====> total   time : 0
+---
+====> average time : 0
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 26
+---
+time : 4
+---
+l3 cache miss cnt : 2
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+N: 100
+====> total   l3 cache miss cnt : 28
+---
+====> average l3 cache miss cnt : 2
+---
+
+====> total   time : 40
+---
+====> average time : 4
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 94
+---
+time : 59
+---
+l3 cache miss cnt : 0
+---
+time : 72
+---
+l3 cache miss cnt : 0
+---
+time : 60
+---
+l3 cache miss cnt : 0
+---
+time : 72
+---
+l3 cache miss cnt : 0
+---
+time : 60
+---
+l3 cache miss cnt : 0
+---
+time : 60
+---
+l3 cache miss cnt : 5
+---
+time : 82
+---
+l3 cache miss cnt : 0
+---
+time : 69
+---
+l3 cache miss cnt : 1
+---
+time : 58
+---
+l3 cache miss cnt : 0
+---
+time : 58
+---
+N: 1000
+====> total   l3 cache miss cnt : 100
+---
+====> average l3 cache miss cnt : 10
+---
+
+====> total   time : 650
+---
+====> average time : 65
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 0
+---
+time : 765
+---
+l3 cache miss cnt : 4
+---
+time : 737
+---
+l3 cache miss cnt : 25
+---
+time : 790
+---
+l3 cache miss cnt : 195
+---
+time : 777
+---
+l3 cache miss cnt : 175
+---
+time : 855
+---
+l3 cache miss cnt : 619
+---
+time : 957
+---
+l3 cache miss cnt : 23
+---
+time : 734
+---
+l3 cache miss cnt : 257
+---
+time : 730
+---
+l3 cache miss cnt : 276
+---
+time : 842
+---
+l3 cache miss cnt : 37
+---
+time : 826
+---
+N: 10000
+====> total   l3 cache miss cnt : 1611
+---
+====> average l3 cache miss cnt : 161
+---
+
+====> total   time : 8013
+---
+====> average time : 801.3
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 356
+---
+time : 9465
+---
+l3 cache miss cnt : 68
+---
+time : 9170
+---
+l3 cache miss cnt : 9903
+---
+time : 10476
+---
+l3 cache miss cnt : 193
+---
+time : 9345
+---
+l3 cache miss cnt : 1063
+---
+time : 9962
+---
+l3 cache miss cnt : 915
+---
+time : 9345
+---
+l3 cache miss cnt : 54
+---
+time : 9161
+---
+l3 cache miss cnt : 3266
+---
+time : 10163
+---
+l3 cache miss cnt : 339
+---
+time : 9255
+---
+l3 cache miss cnt : 43
+---
+time : 9071
+---
+N: 100000
+====> total   l3 cache miss cnt : 16200
+---
+====> average l3 cache miss cnt : 1620
+---
+
+====> total   time : 95413
+---
+====> average time : 9541.3
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 488343
+---
+time : 124268
+---
+l3 cache miss cnt : 503061
+---
+time : 119792
+---
+l3 cache miss cnt : 533748
+---
+time : 123596
+---
+l3 cache miss cnt : 822130
+---
+time : 129949
+---
+l3 cache miss cnt : 679285
+---
+time : 124467
+---
+l3 cache miss cnt : 550762
+---
+time : 124382
+---
+l3 cache miss cnt : 898966
+---
+time : 128083
+---
+l3 cache miss cnt : 567974
+---
+time : 122999
+---
+l3 cache miss cnt : 742432
+---
+time : 125085
+---
+l3 cache miss cnt : 485592
+---
+time : 123314
+---
+N: 1000000
+====> total   l3 cache miss cnt : 6272293
+---
+====> average l3 cache miss cnt : 627229
+---
+
+====> total   time : 1.24594e+06
+---
+====> average time : 124594
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 158257533
+---
+time : 2.08697e+06
+---
+l3 cache miss cnt : 159425125
+---
+time : 2.08386e+06
+---
+l3 cache miss cnt : 157967601
+---
+time : 2.08104e+06
+---
+l3 cache miss cnt : 157980169
+---
+time : 2.07319e+06
+---
+l3 cache miss cnt : 159266009
+---
+time : 2.09353e+06
+---
+l3 cache miss cnt : 158520611
+---
+time : 2.09094e+06
+---
+l3 cache miss cnt : 158546528
+---
+time : 2.09204e+06
+---
+l3 cache miss cnt : 158964729
+---
+time : 2.09366e+06
+---
+l3 cache miss cnt : 158291844
+---
+time : 2.08178e+06
+---
+l3 cache miss cnt : 158863681
+---
+time : 2.0816e+06
+---
+N: 10000000
+====> total   l3 cache miss cnt : 1586083830
+---
+====> average l3 cache miss cnt : 158608383
+---
+
+====> total   time : 2.08586e+07
+---
+====> average time : 2.08586e+06
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 1830481763
+---
+time : 1.4155e+07
+---
+l3 cache miss cnt : 1841373855
+---
+time : 1.42552e+07
+---
+l3 cache miss cnt : 1840849570
+---
+time : 1.42294e+07
+---
+l3 cache miss cnt : 1850039464
+---
+time : 1.4243e+07
+---
+l3 cache miss cnt : 1840215918
+---
+time : 1.42282e+07
+---
+l3 cache miss cnt : 1849050711
+---
+time : 1.42677e+07
+---
+l3 cache miss cnt : 1830572804
+---
+time : 1.41854e+07
+---
+l3 cache miss cnt : 1845436690
+---
+time : 1.41478e+07
+---
+l3 cache miss cnt : 1839446532
+---
+time : 1.41574e+07
+---
+l3 cache miss cnt : 1832381002
+---
+time : 1.4153e+07
+---
+N: 50000000
+====> total   l3 cache miss cnt : 18399848309
+---
+====> average l3 cache miss cnt : 1839984830
+---
+
+====> total   time : 1.42022e+08
+---
+====> average time : 1.42022e+07
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 4603440710
+---
+time : 3.21067e+07
+---
+l3 cache miss cnt : 4563716423
+---
+time : 3.20262e+07
+---
+l3 cache miss cnt : 4588619545
+---
+time : 3.2026e+07
+---
+l3 cache miss cnt : 4573912752
+---
+time : 3.19857e+07
+---
+l3 cache miss cnt : 4607557854
+---
+time : 3.21776e+07
+---
+l3 cache miss cnt : 4574862647
+---
+time : 3.21268e+07
+---
+l3 cache miss cnt : 4583948288
+---
+time : 3.21548e+07
+---
+l3 cache miss cnt : 4568216672
+---
+time : 3.21074e+07
+---
+l3 cache miss cnt : 4586488571
+---
+time : 3.22527e+07
+---
+l3 cache miss cnt : 4578107377
+---
+time : 3.20752e+07
+---
+N: 100000000
+====> total   l3 cache miss cnt : 45828870839
+---
+====> average l3 cache miss cnt : 4582887083
+---
+
+====> total   time : 3.21039e+08
+---
+====> average time : 3.21039e+07
+---
+
+----------
+std heap sort:
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 103
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 4
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+l3 cache miss cnt : 0
+---
+time : 0
+---
+N: 10
+====> total   l3 cache miss cnt : 107
+---
+====> average l3 cache miss cnt : 10
+---
+
+====> total   time : 0
+---
+====> average time : 0
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 11
+---
+time : 4
+---
+l3 cache miss cnt : 16
+---
+time : 22
+---
+l3 cache miss cnt : 2
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 17
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+l3 cache miss cnt : 0
+---
+time : 4
+---
+N: 100
+====> total   l3 cache miss cnt : 29
+---
+====> average l3 cache miss cnt : 2
+---
+
+====> total   time : 71
+---
+====> average time : 7.1
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 13
+---
+time : 76
+---
+l3 cache miss cnt : 8
+---
+time : 75
+---
+l3 cache miss cnt : 6
+---
+time : 74
+---
+l3 cache miss cnt : 17
+---
+time : 63
+---
+l3 cache miss cnt : 0
+---
+time : 74
+---
+l3 cache miss cnt : 21
+---
+time : 80
+---
+l3 cache miss cnt : 0
+---
+time : 72
+---
+l3 cache miss cnt : 0
+---
+time : 72
+---
+l3 cache miss cnt : 0
+---
+time : 73
+---
+l3 cache miss cnt : 5
+---
+time : 72
+---
+N: 1000
+====> total   l3 cache miss cnt : 70
+---
+====> average l3 cache miss cnt : 7
+---
+
+====> total   time : 731
+---
+====> average time : 73.1
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 1
+---
+time : 791
+---
+l3 cache miss cnt : 1
+---
+time : 788
+---
+l3 cache miss cnt : 20
+---
+time : 876
+---
+l3 cache miss cnt : 458
+---
+time : 880
+---
+l3 cache miss cnt : 167
+---
+time : 916
+---
+l3 cache miss cnt : 944
+---
+time : 911
+---
+l3 cache miss cnt : 163
+---
+time : 830
+---
+l3 cache miss cnt : 404
+---
+time : 921
+---
+l3 cache miss cnt : 239
+---
+time : 896
+---
+l3 cache miss cnt : 32
+---
+time : 830
+---
+N: 10000
+====> total   l3 cache miss cnt : 2429
+---
+====> average l3 cache miss cnt : 242
+---
+
+====> total   time : 8639
+---
+====> average time : 863.9
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 234
+---
+time : 10284
+---
+l3 cache miss cnt : 1272
+---
+time : 9952
+---
+l3 cache miss cnt : 6162
+---
+time : 10859
+---
+l3 cache miss cnt : 68
+---
+time : 9832
+---
+l3 cache miss cnt : 2957
+---
+time : 10198
+---
+l3 cache miss cnt : 6755
+---
+time : 10704
+---
+l3 cache miss cnt : 105
+---
+time : 9739
+---
+l3 cache miss cnt : 7029
+---
+time : 10417
+---
+l3 cache miss cnt : 180
+---
+time : 9898
+---
+l3 cache miss cnt : 4587
+---
+time : 10427
+---
+N: 100000
+====> total   l3 cache miss cnt : 29349
+---
+====> average l3 cache miss cnt : 2934
+---
+
+====> total   time : 102310
+---
+====> average time : 10231
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 573704
+---
+time : 126331
+---
+l3 cache miss cnt : 537383
+---
+time : 125875
+---
+l3 cache miss cnt : 759682
+---
+time : 128402
+---
+l3 cache miss cnt : 647142
+---
+time : 128981
+---
+l3 cache miss cnt : 540237
+---
+time : 126638
+---
+l3 cache miss cnt : 885877
+---
+time : 131031
+---
+l3 cache miss cnt : 817968
+---
+time : 128612
+---
+l3 cache miss cnt : 577946
+---
+time : 127772
+---
+l3 cache miss cnt : 596764
+---
+time : 127475
+---
+l3 cache miss cnt : 829867
+---
+time : 129000
+---
+N: 1000000
+====> total   l3 cache miss cnt : 6766570
+---
+====> average l3 cache miss cnt : 676657
+---
+
+====> total   time : 1.28012e+06
+---
+====> average time : 128012
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 161991662
+---
+time : 1.97747e+06
+---
+l3 cache miss cnt : 162880004
+---
+time : 1.97834e+06
+---
+l3 cache miss cnt : 164536234
+---
+time : 1.9843e+06
+---
+l3 cache miss cnt : 162790575
+---
+time : 1.98206e+06
+---
+l3 cache miss cnt : 161028353
+---
+time : 1.95851e+06
+---
+l3 cache miss cnt : 162786386
+---
+time : 1.99458e+06
+---
+l3 cache miss cnt : 162628680
+---
+time : 1.98037e+06
+---
+l3 cache miss cnt : 161226210
+---
+time : 1.9751e+06
+---
+l3 cache miss cnt : 160972285
+---
+time : 1.96744e+06
+---
+l3 cache miss cnt : 161647158
+---
+time : 1.97938e+06
+---
+N: 10000000
+====> total   l3 cache miss cnt : 1622487547
+---
+====> average l3 cache miss cnt : 162248754
+---
+
+====> total   time : 1.97776e+07
+---
+====> average time : 1.97776e+06
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 1843622251
+---
+time : 1.33894e+07
+---
+l3 cache miss cnt : 1845286326
+---
+time : 1.34542e+07
+---
+l3 cache miss cnt : 1840559616
+---
+time : 1.3461e+07
+---
+l3 cache miss cnt : 1838838055
+---
+time : 1.34183e+07
+---
+l3 cache miss cnt : 1845055677
+---
+time : 1.3455e+07
+---
+l3 cache miss cnt : 1827343570
+---
+time : 1.34148e+07
+---
+l3 cache miss cnt : 1836085355
+---
+time : 1.34883e+07
+---
+l3 cache miss cnt : 1835285304
+---
+time : 1.34358e+07
+---
+l3 cache miss cnt : 1834488916
+---
+time : 1.34413e+07
+---
+l3 cache miss cnt : 1841050570
+---
+time : 1.34437e+07
+---
+N: 50000000
+====> total   l3 cache miss cnt : 18387615640
+---
+====> average l3 cache miss cnt : 1838761564
+---
+
+====> total   time : 1.34402e+08
+---
+====> average time : 1.34402e+07
+---
+
+--------------------------------
+--------------------------------
+l3 cache miss cnt : 4605703540
+---
+time : 3.02936e+07
+---
+l3 cache miss cnt : 4592656056
+---
+time : 3.02323e+07
+---
+l3 cache miss cnt : 4558892817
+---
+time : 3.02844e+07
+---
+l3 cache miss cnt : 4614944862
+---
+time : 3.03457e+07
+---
+l3 cache miss cnt : 4587661021
+---
+time : 3.02751e+07
+---
+l3 cache miss cnt : 4610952763
+---
+time : 3.03852e+07
+---
+l3 cache miss cnt : 4621581431
+---
+time : 3.02426e+07
+---
+l3 cache miss cnt : 4586345161
+---
+time : 3.03056e+07
+---
+l3 cache miss cnt : 4652567300
+---
+time : 3.04115e+07
+---
+l3 cache miss cnt : 4571257606
+---
+time : 3.03172e+07
+---
+N: 100000000
+====> total   l3 cache miss cnt : 46002562557
+---
+====> average l3 cache miss cnt : 4600256255
+---
+
+====> total   time : 3.03093e+08
+---
+====> average time : 3.03093e+07
+---
+
