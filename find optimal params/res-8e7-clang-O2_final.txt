@@ -1,0 +1,742 @@
+[euler@fedora find optimal params]$ clang++ -O2 find_optimal_3par.cpp 
+[euler@fedora find optimal params]$ sudo nice --20 ./a.out 
+N: 80000000
+Par_Heap ; D = 1, b_ch: 2, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 5.58319e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 2, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 3.3405e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 2, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 2.67904e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 2, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 2.39019e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 2, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 2.30667e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 2, inter_ch: 1
+time: 2.38609e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 2, inter_ch: 1
+time: 2.56194e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 2, inter_ch: 1
+time: 2.87058e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 2, inter_ch: 1
+time: 3.29455e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 2, inter_ch: 1
+time: 3.70436e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 3, inter_ch: 1
+time: 3.55652e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 3, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 2.23474e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 3, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.98095e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 3, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.92445e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 3, inter_ch: 1
+time: 2.26949e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 3, inter_ch: 1
+time: 2.61424e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 3, inter_ch: 1
+time: 2.92826e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 3, inter_ch: 1
+time: 2.96421e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 3, inter_ch: 1
+time: 3.1351e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 3, inter_ch: 1
+time: 3.35128e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 4, inter_ch: 1
+time: 2.92556e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 4, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.91699e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 4, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.81312e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 4, inter_ch: 1
+time: 2.06049e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 4, inter_ch: 1
+time: 2.39624e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 4, inter_ch: 1
+time: 2.60602e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 4, inter_ch: 1
+time: 2.68312e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 4, inter_ch: 1
+time: 2.87631e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 4, inter_ch: 1
+time: 3.08797e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 4, inter_ch: 1
+time: 3.20903e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 5, inter_ch: 1
+time: 2.58746e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 5, inter_ch: 1
+time: 1.84889e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 5, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.79295e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 5, inter_ch: 1
+time: 2.11169e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 5, inter_ch: 1
+time: 2.39335e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 5, inter_ch: 1
+time: 2.38292e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 5, inter_ch: 1
+time: 2.58827e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 5, inter_ch: 1
+time: 2.7455e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 5, inter_ch: 1
+time: 2.8275e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 5, inter_ch: 1
+time: 2.77427e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 6, inter_ch: 1
+time: 2.38868e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 6, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.73055e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 6, inter_ch: 1
+time: 1.84356e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 6, inter_ch: 1
+time: 2.16912e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 6, inter_ch: 1
+time: 2.19332e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 6, inter_ch: 1
+time: 2.36015e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 6, inter_ch: 1
+time: 2.54077e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 6, inter_ch: 1
+time: 2.62916e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 6, inter_ch: 1
+time: 2.57227e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 6, inter_ch: 1
+time: 2.26451e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 7, inter_ch: 1
+time: 2.2804e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 7, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.69587e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 7, inter_ch: 1
+time: 1.81141e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 7, inter_ch: 1
+time: 2.18242e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 7, inter_ch: 1
+time: 2.15474e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 7, inter_ch: 1
+time: 2.35525e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 7, inter_ch: 1
+time: 2.46854e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 7, inter_ch: 1
+time: 2.50003e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 7, inter_ch: 1
+time: 2.21408e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 7, inter_ch: 1
+time: 2.13196e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 8, inter_ch: 1
+time: 2.18165e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 8, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.6681e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 8, inter_ch: 1
+time: 1.85198e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 8, inter_ch: 1
+time: 2.13848e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 8, inter_ch: 1
+time: 2.1664e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 8, inter_ch: 1
+time: 2.36471e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 8, inter_ch: 1
+time: 2.47289e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 8, inter_ch: 1
+time: 2.37598e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 8, inter_ch: 1
+time: 2.09115e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 8, inter_ch: 1
+time: 2.08682e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 9, inter_ch: 1
+time: 2.10889e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 9, inter_ch: 1
+BBBBBBBBBBBBBBBb
+time: 1.6383e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 9, inter_ch: 1
+time: 1.92588e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 9, inter_ch: 1
+time: 2.01788e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 9, inter_ch: 1
+time: 2.15008e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 9, inter_ch: 1
+time: 2.31463e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 9, inter_ch: 1
+time: 2.35162e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 9, inter_ch: 1
+time: 2.05372e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 9, inter_ch: 1
+time: 1.99771e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 9, inter_ch: 1
+time: 1.98473e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 10, inter_ch: 1
+time: 2.08237e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 10, inter_ch: 1
+time: 1.64866e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 10, inter_ch: 1
+time: 1.95949e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 10, inter_ch: 1
+time: 1.97175e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 10, inter_ch: 1
+time: 2.16507e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 10, inter_ch: 1
+time: 2.30259e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 10, inter_ch: 1
+time: 2.27721e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 10, inter_ch: 1
+time: 1.96124e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 10, inter_ch: 1
+time: 1.98079e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 10, inter_ch: 1
+time: 2.01183e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 2, inter_ch: 2
+time: 3.43786e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 2, inter_ch: 2
+time: 2.74493e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 2, inter_ch: 2
+time: 2.45652e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 2, inter_ch: 2
+time: 2.30351e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 2, inter_ch: 2
+time: 2.41772e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 2, inter_ch: 2
+time: 2.5292e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 2, inter_ch: 2
+time: 2.86554e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 2, inter_ch: 2
+time: 3.12596e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 2, inter_ch: 2
+time: 3.47505e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 2, inter_ch: 2
+time: 3.83164e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 3, inter_ch: 2
+time: 2.61511e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 3, inter_ch: 2
+time: 2.16097e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 3, inter_ch: 2
+time: 2.02091e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 3, inter_ch: 2
+time: 2.11606e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 3, inter_ch: 2
+time: 2.37723e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 3, inter_ch: 2
+time: 2.72536e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 3, inter_ch: 2
+time: 2.97161e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 3, inter_ch: 2
+time: 2.97299e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 3, inter_ch: 2
+time: 3.16263e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 3, inter_ch: 2
+time: 3.41088e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 4, inter_ch: 2
+time: 2.4323e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 4, inter_ch: 2
+time: 1.97347e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 4, inter_ch: 2
+time: 1.90351e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 4, inter_ch: 2
+time: 2.20444e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 4, inter_ch: 2
+time: 2.54097e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 4, inter_ch: 2
+time: 2.59106e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 4, inter_ch: 2
+time: 2.73168e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 4, inter_ch: 2
+time: 2.9582e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 4, inter_ch: 2
+time: 3.17471e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 4, inter_ch: 2
+time: 3.30222e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 5, inter_ch: 2
+time: 2.30252e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 5, inter_ch: 2
+time: 1.83327e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 5, inter_ch: 2
+time: 1.99194e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 5, inter_ch: 2
+time: 2.28235e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 5, inter_ch: 2
+time: 2.41946e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 5, inter_ch: 2
+time: 2.43048e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 5, inter_ch: 2
+time: 2.65622e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 5, inter_ch: 2
+time: 2.80695e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 5, inter_ch: 2
+time: 2.89064e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 5, inter_ch: 2
+time: 2.81734e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 6, inter_ch: 2
+time: 2.207e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 6, inter_ch: 2
+time: 1.80471e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 6, inter_ch: 2
+time: 2.02027e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 6, inter_ch: 2
+time: 2.33468e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 6, inter_ch: 2
+time: 2.21893e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 6, inter_ch: 2
+time: 2.42656e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 6, inter_ch: 2
+time: 2.60017e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 6, inter_ch: 2
+time: 2.68863e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 6, inter_ch: 2
+time: 2.63739e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 6, inter_ch: 2
+time: 2.29323e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 7, inter_ch: 2
+time: 2.12577e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 7, inter_ch: 2
+time: 1.76334e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 7, inter_ch: 2
+time: 2.07522e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 7, inter_ch: 2
+time: 2.28614e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 7, inter_ch: 2
+time: 2.19868e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 7, inter_ch: 2
+time: 2.42451e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 7, inter_ch: 2
+time: 2.54249e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 7, inter_ch: 2
+time: 2.54661e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 7, inter_ch: 2
+time: 2.26338e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 7, inter_ch: 2
+time: 2.17075e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 8, inter_ch: 2
+time: 2.08562e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 8, inter_ch: 2
+time: 1.79588e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 8, inter_ch: 2
+time: 2.11396e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 8, inter_ch: 2
+time: 2.16025e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 8, inter_ch: 2
+time: 2.23408e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 8, inter_ch: 2
+time: 2.44128e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 8, inter_ch: 2
+time: 2.54986e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 8, inter_ch: 2
+time: 2.41516e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 8, inter_ch: 2
+time: 2.12171e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 8, inter_ch: 2
+time: 2.09684e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 9, inter_ch: 2
+time: 2.07058e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 9, inter_ch: 2
+time: 1.85789e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 9, inter_ch: 2
+time: 2.127e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 9, inter_ch: 2
+time: 2.0429e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 9, inter_ch: 2
+time: 2.22628e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 9, inter_ch: 2
+time: 2.37506e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 9, inter_ch: 2
+time: 2.39492e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 9, inter_ch: 2
+time: 2.07636e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 9, inter_ch: 2
+time: 2.00423e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 9, inter_ch: 2
+time: 1.98948e+07
+OK = 1
+
+Par_Heap ; D = 1, b_ch: 10, inter_ch: 2
+time: 2.04237e+07
+OK = 1
+
+Par_Heap ; D = 2, b_ch: 10, inter_ch: 2
+time: 1.89647e+07
+OK = 1
+
+Par_Heap ; D = 3, b_ch: 10, inter_ch: 2
+time: 2.16213e+07
+OK = 1
+
+Par_Heap ; D = 4, b_ch: 10, inter_ch: 2
+time: 2.0297e+07
+OK = 1
+
+Par_Heap ; D = 5, b_ch: 10, inter_ch: 2
+time: 2.2318e+07
+OK = 1
+
+Par_Heap ; D = 6, b_ch: 10, inter_ch: 2
+time: 2.36261e+07
+OK = 1
+
+Par_Heap ; D = 7, b_ch: 10, inter_ch: 2
+time: 2.30805e+07
+OK = 1
+
+Par_Heap ; D = 8, b_ch: 10, inter_ch: 2
+time: 1.96996e+07
+OK = 1
+
+Par_Heap ; D = 9, b_ch: 10, inter_ch: 2
+time: 1.97706e+07
+OK = 1
+
+Par_Heap ; D = 10, b_ch: 10, inter_ch: 2
+time: 2.00231e+07
+OK = 1
+
+bestTime: 16383031
+bestConf (D,b_ch,inter_ch): 2, 9, 1
+for n = 80000000
+
