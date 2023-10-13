@@ -8,3 +8,5 @@ In this research project a new approach to priority queues is presented, specifi
 
 - **Compiler Choice:** Regrettably, the GCC compiler struggled to optimize the new source code effectively on our machine. Consequently, we opted for Clang in this project for better performance.
 
+- To ensure accurate results, avoid running any additional programs simultaneously while executing the source codes. We highly recommend avoiding any system activity while the code for finding optimal parameters is running. For our tests, we went a step further and ran the codes with the highest priority on our Fedora machine to guarantee the most precise outcomes. However, it's worth noting that this step proved to be unnecessary when extra system activity is avoided.
+
