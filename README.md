@@ -10,3 +10,20 @@ In this research project a new approach to priority queues is presented, specifi
 
 - To ensure accurate results, avoid running any additional programs simultaneously while executing the source codes. We highly recommend avoiding any system activity while the code for finding optimal parameters is running. For our tests, we went a step further and ran the codes with the highest priority on our Fedora machine to guarantee the most precise outcomes. However, it's worth noting that this step proved to be unnecessary when extra system activity is avoided.
 
+### Running and Testing:
+In order to find the optimal tree layout on your machine:
+```
+cd "find optimal params"
+clang++ -O2 find_optimal_3par.cpp
+sudo nice --20 ./a.out
+```
+Once you've found the optimal parameters, modify the object instantiation line in "cache-benchmark/cache_time_benchmark.cpp" file (note that for inter_ch_cnt values greater than 1 you need to import the Par-Heap_3par.hpp instead) then use these cmds to run the benchmarks:
+```
+cd cache-benchmark
+clang++ -O2 -lpapi cache_time_benchmark.cpp
+./a.out
+```
+
+### Requirements:
+- PAPI (icl.cs.utk.edu/projects/papi)
+
